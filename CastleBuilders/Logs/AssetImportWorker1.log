@@ -15,7 +15,7 @@ D:/SoftTeam/Repozitories/MyProject_3_CastleBuilders/CastleBuilders
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64217
+59298
 Successfully changed project path to: D:/SoftTeam/Repozitories/MyProject_3_CastleBuilders/CastleBuilders
 D:/SoftTeam/Repozitories/MyProject_3_CastleBuilders/CastleBuilders
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/SoftTeam/Repozitories/MyProject_3_CastleBuilders/CastleBuilders
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14972] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2302528332 [EditorId] 2302528332 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M5RIVGM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7656] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2136003060 [EditorId] 2136003060 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M5RIVGM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14972] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2302528332 [EditorId] 2302528332 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M5RIVGM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7656] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2136003060 [EditorId] 2136003060 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M5RIVGM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 8.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path D:/Unity/Editors/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editors/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editors/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Editors/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editors/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -78,47 +78,47 @@ Register platform support module: D:/Unity/Editors/2022.3.15f1/Editor/Data/Playb
 Register platform support module: D:/Unity/Editors/2022.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Unity/Editors/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Unity/Editors/2022.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006638 seconds.
-- Loaded All Assemblies, in  0.324 seconds
+Registered in 0.005905 seconds.
+- Loaded All Assemblies, in  0.271 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 225 ms
+Android Extension - Scanning For ADB Devices 207 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.511 seconds
-Domain Reload Profiling: 835ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 741ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (88ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (96ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (511ms)
+	FinalizeReload (471ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (457ms)
+		SetupLoadedEditorAssemblies (428ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (328ms)
+			InitializePlatformSupportModulesInManaged (303ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,8 +127,8 @@ Domain Reload Profiling: 835ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.513 seconds
-Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.530 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -139,256 +139,1748 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.456 seconds
-Domain Reload Profiling: 969ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.484 seconds
+Domain Reload Profiling: 1014ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (265ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (274ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (101ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (457ms)
+	FinalizeReload (484ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
+		SetupLoadedEditorAssemblies (352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (62.9 KB). Loaded Objects now: 4547.
+Memory consumption went from 155.7 MB to 155.6 MB.
+Total: 3.220600 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.186900 ms MarkObjects: 2.619200 ms  DeleteObjects: 0.131400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 271465.207910 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Media.png
+  artifactKey: Guid(96af9a74efcf24fd7b956f95b1111fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Media.png using Guid(96af9a74efcf24fd7b956f95b1111fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f318dc22106a690505b2609d751bd0') in 0.065238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Service.png
+  artifactKey: Guid(ced27dd30d5174f1abb4a3af3902c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Service.png using Guid(ced27dd30d5174f1abb4a3af3902c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a8ceae78505669d14ebc8ea55f9688') in 0.021489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Stopwatch.png
+  artifactKey: Guid(9be844987db8d499fb14098424d117b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Stopwatch.png using Guid(9be844987db8d499fb14098424d117b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bbc087d80390b13c2254264c3ebe5f') in 0.021118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Setting1.png
+  artifactKey: Guid(31e0b83521a4148ef90552e79c513299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Setting1.png using Guid(31e0b83521a4148ef90552e79c513299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723a40058a431ac0161f51754233b2f6') in 0.020459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Money.png
+  artifactKey: Guid(3fa5b36866e494c23b4b60f66cb0ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Money.png using Guid(3fa5b36866e494c23b4b60f66cb0ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391aaa5277ec54b0c81ad9038ef13452') in 0.025821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Refresh.png
+  artifactKey: Guid(1dbcf33f869b344c6ae3b960d8e943dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Refresh.png using Guid(1dbcf33f869b344c6ae3b960d8e943dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d04066cf8689310d9b6f2795d89cce4') in 0.026329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Pen.png
+  artifactKey: Guid(12225ede350bc4b8e9976eb984fd8447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Pen.png using Guid(12225ede350bc4b8e9976eb984fd8447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb9d730faea71cff612d2c0b46fe546') in 0.016624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Shopping.png
+  artifactKey: Guid(34e768af03d504ac081a9abdb7e4a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Shopping.png using Guid(34e768af03d504ac081a9abdb7e4a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce30365c7a3e9c6fc67e9b4d59a61d96') in 0.018444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Music1.png
+  artifactKey: Guid(b03d1921666e64d16a05a1e4e3cb34af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Music1.png using Guid(b03d1921666e64d16a05a1e4e3cb34af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739e9460d564b09f7fabecdec696ed23') in 0.027700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Setting2.png
+  artifactKey: Guid(2ebcf0eb023ca4aa5b306f2ae151018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Setting2.png using Guid(2ebcf0eb023ca4aa5b306f2ae151018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f362a18438125da029431e946c5c247e') in 0.020947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Mobile.png
+  artifactKey: Guid(c75fca2570cf5463398d7cf275d7bacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Mobile.png using Guid(c75fca2570cf5463398d7cf275d7bacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800f3512e592f63e308b965276d56494') in 0.029767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Reset.png
+  artifactKey: Guid(be3925d5c315348339b31f67adce97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Reset.png using Guid(be3925d5c315348339b31f67adce97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1cff75569fa10a43354210abbb594c') in 0.022509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Tag.png
+  artifactKey: Guid(89860b58da08d4341a4676ff80cfe47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Tag.png using Guid(89860b58da08d4341a4676ff80cfe47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b5b93eed178982e06962bd2878ee7d') in 0.016607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Pick.png
+  artifactKey: Guid(ef147a8f8ca074af5b66e1a34d876a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Pick.png using Guid(ef147a8f8ca074af5b66e1a34d876a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e3f0d5199f2251326aa547b02bfd67') in 0.017117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Search.png
+  artifactKey: Guid(d9a51fe28c432463eaaf478576dc74ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Search.png using Guid(d9a51fe28c432463eaaf478576dc74ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1f28e354369952cfaa398e2463fc8a') in 0.013996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Notification.png
+  artifactKey: Guid(95d2065af21694dd6a8bb7492ab4b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Notification.png using Guid(95d2065af21694dd6a8bb7492ab4b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40662a4ff197e861709d9bc2dc61f7a3') in 0.013673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Safe.png
+  artifactKey: Guid(267fcfaefde444ebba76bad1ee3b0eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Safe.png using Guid(267fcfaefde444ebba76bad1ee3b0eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814683d5e0b2c93e55d2a5e19f31ecc5') in 0.012952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Megaphone.png
+  artifactKey: Guid(d94dac1a18642447c95d8f272fa2bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Megaphone.png using Guid(d94dac1a18642447c95d8f272fa2bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006aea70c81881799b337430760c3042') in 0.013540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Piechart.png
+  artifactKey: Guid(d2ceea8a263044cfabb8628e2e761eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Piechart.png using Guid(d2ceea8a263044cfabb8628e2e761eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b153b9022e7f85d57e7f545ad6f940ac') in 0.013719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Ranking.png
+  artifactKey: Guid(b4d166de6208f4ea9bcbc714dbf86ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Ranking.png using Guid(b4d166de6208f4ea9bcbc714dbf86ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e64d2276e0cb730de2f38d191a6356e') in 0.014810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Sort.png
+  artifactKey: Guid(e230e64e043fa49c1ba2f91584d1c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Sort.png using Guid(e230e64e043fa49c1ba2f91584d1c455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590e5cdabee6e78d347b88dffeede6ce') in 0.013636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Speedmeter.png
+  artifactKey: Guid(f793bd4e2d35c49a68f2bf855813da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Speedmeter.png using Guid(f793bd4e2d35c49a68f2bf855813da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ccca584016cd7302377a2d90810f18') in 0.015922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Minus.png
+  artifactKey: Guid(2a71000b937d846b1a18bc85b7065895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Minus.png using Guid(2a71000b937d846b1a18bc85b7065895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e03adc333c0b00cd340355ab8778502') in 0.014460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Sword.png
+  artifactKey: Guid(4d7066b4010084837b845186c6da4388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Sword.png using Guid(4d7066b4010084837b845186c6da4388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf4cac5f6ebb152ca85e1fc457e7ff1') in 0.016445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Send2.png
+  artifactKey: Guid(3378f1941c81c4e57b5a442a5c228339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Send2.png using Guid(3378f1941c81c4e57b5a442a5c228339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba59cec54398f9ff5095343a3db3846f') in 0.016779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Shop.png
+  artifactKey: Guid(cc9622bfa32d345b2b82a37b9fdb614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Shop.png using Guid(cc9622bfa32d345b2b82a37b9fdb614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0405e286a8a263e2a2512b523570fd') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Sandglass.png
+  artifactKey: Guid(4260fa9efccfe4c6b865c08a67dcbfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Sandglass.png using Guid(4260fa9efccfe4c6b865c08a67dcbfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24f62e147532dd339267ec4ef705248') in 0.017582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Newspaper.png
+  artifactKey: Guid(6264b91be83af49b9be5a2bf4fe429db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Newspaper.png using Guid(6264b91be83af49b9be5a2bf4fe429db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d142c7e31cfea37c2e7cb24e8c32b3c') in 0.015879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Next.png
+  artifactKey: Guid(24373ad1227394938a18f05b2694b706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Next.png using Guid(24373ad1227394938a18f05b2694b706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b3e31cdf084d3fca031fe76b39b90a') in 0.013604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Reload.png
+  artifactKey: Guid(052bff606c2c342009f69a96ce409502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Reload.png using Guid(052bff606c2c342009f69a96ce409502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd146c7018d2c4948364e8ee7a229a6da') in 0.014029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Plus.png
+  artifactKey: Guid(50fb9861b4d9b45a2a542f5dbc0a9c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Plus.png using Guid(50fb9861b4d9b45a2a542f5dbc0a9c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c392a5f0cd1e845b1907a87e8c8c8cdc') in 0.014938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_RecordOff.png
+  artifactKey: Guid(b1c6a30084dcd4afa88840c2117b2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_RecordOff.png using Guid(b1c6a30084dcd4afa88840c2117b2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f232037902b7ac791239e3d52c09328') in 0.014192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Menu.png
+  artifactKey: Guid(c8d6a7a01a7f04c238008de252ddb7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Menu.png using Guid(c8d6a7a01a7f04c238008de252ddb7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2291b090db60f500bfe3448d53fd3743') in 0.013569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Printer.png
+  artifactKey: Guid(d843602d844e9462db6b3bb641cb4dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Printer.png using Guid(d843602d844e9462db6b3bb641cb4dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcd953d24389e611270e10b0c375469') in 0.014930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Pc.png
+  artifactKey: Guid(d3320772c6a9d4544ab85e0c361be060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Pc.png using Guid(d3320772c6a9d4544ab85e0c361be060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ba6ab35cff3c5eae5f0608472d456a') in 0.014331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Scan.png
+  artifactKey: Guid(7c9ec882b6d604c2092c62e07fcb282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Scan.png using Guid(7c9ec882b6d604c2092c62e07fcb282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539d91b3c73778f311d1a01d1043bfe9') in 0.013141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.699768 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_AddFriend.png
+  artifactKey: Guid(a66577b5b826a4a4fb46ae7e6108b830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_AddFriend.png using Guid(a66577b5b826a4a4fb46ae7e6108b830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be530fc93adfc76f73517ebe6090344f') in 0.015943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Chat.png
+  artifactKey: Guid(f7388d3256ab7424780a13df5284c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Chat.png using Guid(f7388d3256ab7424780a13df5284c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f59ddc31d4d9bf530fcc1cb4a97fe8b') in 0.022977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ArrowNext.png
+  artifactKey: Guid(1499722afa9ea47bd9fdb77cef3cf650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ArrowNext.png using Guid(1499722afa9ea47bd9fdb77cef3cf650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba71a2d01a24fb8633fc4951ae279df') in 0.032508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ArrowDown.png
+  artifactKey: Guid(87a096d11b490479da8f95576b69c8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ArrowDown.png using Guid(87a096d11b490479da8f95576b69c8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63538852114e09757c6f9f1a8847e901') in 0.037750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coffee.png
+  artifactKey: Guid(b80dbaf3210ca4956a60a167aa5311c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coffee.png using Guid(b80dbaf3210ca4956a60a167aa5311c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95005b2476a2037c84e69f41f80a41e') in 0.065095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Down.png
+  artifactKey: Guid(2a41e4dbe6ccb4f328a7498a60df2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Down.png using Guid(2a41e4dbe6ccb4f328a7498a60df2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b194a707a50fe62d50a077fd2c17423') in 0.028616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Crown.png
+  artifactKey: Guid(b7d27a144c97042f3b95785601eede33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Crown.png using Guid(b7d27a144c97042f3b95785601eede33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efe5edbd152d35da88550ae93d6024b') in 0.029798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Earth.png
+  artifactKey: Guid(ec5186516b0f845b7ac0650cf9429900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Earth.png using Guid(ec5186516b0f845b7ac0650cf9429900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c124e104986db050aaf5cd43b19c1d') in 0.040912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlNext.png
+  artifactKey: Guid(2635de685afd34f4ab0ce45ba6ff8f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlNext.png using Guid(2635de685afd34f4ab0ce45ba6ff8f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793786390d60dc6bdfdf1e86e3dbdd37') in 0.046045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bookmark.png
+  artifactKey: Guid(2c879739aa99043c8bd156c62bb0b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bookmark.png using Guid(2c879739aa99043c8bd156c62bb0b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cda0dc3cc5d1b82262cdcf4d838e1f2') in 0.032781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlStop.png
+  artifactKey: Guid(3081f484d263145dbab925ed69a2e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlStop.png using Guid(3081f484d263145dbab925ed69a2e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c48c136856508ccb5a885483561b249') in 0.015038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Appstore.png
+  artifactKey: Guid(3efccb7c7531e4b3ca3032b247c4d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Appstore.png using Guid(3efccb7c7531e4b3ca3032b247c4d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fb9e069e191a985732e26d1e8cd41b') in 0.015830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Ax.png
+  artifactKey: Guid(da606bf48dff0421495e1dee4ca23a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Ax.png using Guid(da606bf48dff0421495e1dee4ca23a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29f933d8ffa554d8bcb0e9bae5e84b4') in 0.014950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Compass.png
+  artifactKey: Guid(222a34137c8a4453b90700d4d7edb298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Compass.png using Guid(222a34137c8a4453b90700d4d7edb298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a190b9a444438ba3f0fe23935c2b1e') in 0.014143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_EmojiGood.png
+  artifactKey: Guid(54232675556ee49db8fd98ad65926d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_EmojiGood.png using Guid(54232675556ee49db8fd98ad65926d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbec4dce8e806ade131d35ca396cc0d') in 0.015615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coupon.png
+  artifactKey: Guid(899a4634a0680445a8c79549eef05c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coupon.png using Guid(899a4634a0680445a8c79549eef05c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1810500f16b74e5b7272190989e8c284') in 0.013884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Call.png
+  artifactKey: Guid(a2d42d86b520a438f9773ac47d09102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Call.png using Guid(a2d42d86b520a438f9773ac47d09102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93eeccaea56e2bd07073ad0de477001') in 0.015956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Control.png
+  artifactKey: Guid(8c7fb62525c2c4f3ebead3875c434dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Control.png using Guid(8c7fb62525c2c4f3ebead3875c434dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865cf2cd7744191f10c63c94c0c4901') in 0.014709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.385844 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Expand.png
+  artifactKey: Guid(56ff5950f8c044352ae5d1671e559091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Expand.png using Guid(56ff5950f8c044352ae5d1671e559091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f18c3a150d63ce027bf260f88d9ef0') in 0.014504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Facebook.png
+  artifactKey: Guid(dd3a09c0a35e24bcebc91d511983b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Facebook.png using Guid(dd3a09c0a35e24bcebc91d511983b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791f42cc5d9c92f02e0a6bf6d495ef00') in 0.014795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Firm.png
+  artifactKey: Guid(d8f67447a2f8e40b487883eb967a46be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Firm.png using Guid(d8f67447a2f8e40b487883eb967a46be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9670db449f818b23fa68c6fda5def4ea') in 0.014506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Fingerprint.png
+  artifactKey: Guid(c5540f277bfe8403c91cc24ad8b7ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Fingerprint.png using Guid(c5540f277bfe8403c91cc24ad8b7ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fa3ad2be527256a568240a3323e430') in 0.014640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.352267 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Label/label_flag_White1.png
+  artifactKey: Guid(e6eb8fb0ce33c401a99325e8ecba8f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Label/label_flag_White1.png using Guid(e6eb8fb0ce33c401a99325e8ecba8f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3fbb5245b87349caafeb3015a60374') in 0.067819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Label/label_ribbon01_Demo_green.png
+  artifactKey: Guid(e0eaa9e4258c74cf6a447b1e27561562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Label/label_ribbon01_Demo_green.png using Guid(e0eaa9e4258c74cf6a447b1e27561562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84574b86c4cc08e37e36ab0ade071762') in 0.078190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Label/label_flag_White3.png
+  artifactKey: Guid(66e457583da4f423e80276c35ec19b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Label/label_flag_White3.png using Guid(66e457583da4f423e80276c35ec19b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e2238eb167b543afda3b3278ee1512') in 0.061281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Label/label_ribbon01_White2.png
+  artifactKey: Guid(f81d1a154433445c3958189c7e7821d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Label/label_ribbon01_White2.png using Guid(f81d1a154433445c3958189c7e7821d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9add148159440ae95eb42281911ccd5') in 0.045057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.549841 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Popup/popup_title_frame_00.Png
+  artifactKey: Guid(02ab72d5275a04cbeb24a66542e31aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Popup/popup_title_frame_00.Png using Guid(02ab72d5275a04cbeb24a66542e31aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd30f0a10472323f4d31b426c782413a') in 0.062690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.475487 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_circle_52_Demo.png
+  artifactKey: Guid(297b9d1a0c6a5421b810627477d5dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_circle_52_Demo.png using Guid(297b9d1a0c6a5421b810627477d5dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bb149a5049cb053ec7b4d0db94a9c1') in 0.015848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square01_Demo.png
+  artifactKey: Guid(8f8011eabda7d4a88bd345d07ad216e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square01_Demo.png using Guid(8f8011eabda7d4a88bd345d07ad216e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e259113398eaa2e2be5658d264f0a5') in 0.044562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tablaframe01_Demo.png
+  artifactKey: Guid(865eaa371902a47068dbbe5a8a30a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tablaframe01_Demo.png using Guid(865eaa371902a47068dbbe5a8a30a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca68391407addf8300f8dadb26a3cfbc') in 0.061538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_oval_56_White.png
+  artifactKey: Guid(921fc582a90394e848a83da40043f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_oval_56_White.png using Guid(921fc582a90394e848a83da40043f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385c2f4550afb1855e5a57f682a89d1e') in 0.032874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tabmenu_Demo_s.png
+  artifactKey: Guid(5c9acda7eceab4971b87fb69094efa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tabmenu_Demo_s.png using Guid(5c9acda7eceab4971b87fb69094efa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a20c8a8f4518d8bd500bbc9e18899a') in 0.021578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_large2.png
+  artifactKey: Guid(b433d56fd29c547c2bc13ece9a9beb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_large2.png using Guid(b433d56fd29c547c2bc13ece9a9beb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb78ef87827c41e05a6bd709871f53f5') in 0.015763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe02_Demo_n.png
+  artifactKey: Guid(fee3b8fa7ee9b4870be2011041233752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe02_Demo_n.png using Guid(fee3b8fa7ee9b4870be2011041233752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346d73f460e60803585ca3ddcd048104') in 0.016442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_listframe_Demo.png
+  artifactKey: Guid(393873b61b7084049b4be33aa144910e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_listframe_Demo.png using Guid(393873b61b7084049b4be33aa144910e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1357bada3c88e25385e8a6aec0a198') in 0.016671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe01_Demo_brown.png
+  artifactKey: Guid(c99634f2b238d440b9b16c06abed4347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe01_Demo_brown.png using Guid(c99634f2b238d440b9b16c06abed4347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32088b75637222a8551d9174e5c944b') in 0.015213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_topbar_Demo.png
+  artifactKey: Guid(aca272b9b5bd04227bd473b2fab855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_topbar_Demo.png using Guid(aca272b9b5bd04227bd473b2fab855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb435a11b5fb1acb64c00463e36d1714') in 0.014365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_large1.png
+  artifactKey: Guid(913ffa3567ef64565b93084ec8a4fcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_large1.png using Guid(913ffa3567ef64565b93084ec8a4fcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea190855b50b2629888261e4303ba1a') in 0.017402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_small1.png
+  artifactKey: Guid(b264386ec04e54d6e9c61eb484e0c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_small1.png using Guid(b264386ec04e54d6e9c61eb484e0c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a1d1f09829858e0440cabc1e7b0ee3') in 0.016526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tabmenu_White5.png
+  artifactKey: Guid(cb5eeee1b80ce44fdbb6c17f6bdefafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tabmenu_White5.png using Guid(cb5eeee1b80ce44fdbb6c17f6bdefafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1474d034f8171965ed1b650dca65ba22') in 0.014694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.369838 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_circle_52_Demo.png
+  artifactKey: Guid(297b9d1a0c6a5421b810627477d5dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_circle_52_Demo.png using Guid(297b9d1a0c6a5421b810627477d5dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecc0f8462546277258062f84180ef98') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe01_Demo_green.png
+  artifactKey: Guid(8f5e276e420954258bd022cc99bc64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe01_Demo_green.png using Guid(8f5e276e420954258bd022cc99bc64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e50a59581513f7850f00ed70aa6b8c') in 0.023269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square01_White.png
+  artifactKey: Guid(c408723e5b65f418fb6e6638f44eb182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square01_White.png using Guid(c408723e5b65f418fb6e6638f44eb182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc722e7431cc5a884050282e469f1865') in 0.029111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square03_Demo.png
+  artifactKey: Guid(6b4defef2eaaf4cab9fdae80166dd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square03_Demo.png using Guid(6b4defef2eaaf4cab9fdae80166dd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d58f9b60fa8945552bd79f0ded74dfc') in 0.031443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_stageframe_Demo_n.png
+  artifactKey: Guid(9cec25c03b6b34cb69a72aed6d6bbc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_stageframe_Demo_n.png using Guid(9cec25c03b6b34cb69a72aed6d6bbc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aff49d5ab3b80d0053363aeae02157f') in 0.035117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tabmenu_White4.png
+  artifactKey: Guid(c436a2df23cf140c6b7e3b05662323ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_tabmenu_White4.png using Guid(c436a2df23cf140c6b7e3b05662323ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cccb3e44409470d1c702dd7f77eb55') in 0.032981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_stageframe_White5.png
+  artifactKey: Guid(11b68f79340084c0e9eaa95b15e4d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_stageframe_White5.png using Guid(11b68f79340084c0e9eaa95b15e4d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb5f838da87978aa9210be9b69cbd29') in 0.017498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_listframe_Demo.png
+  artifactKey: Guid(393873b61b7084049b4be33aa144910e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_listframe_Demo.png using Guid(393873b61b7084049b4be33aa144910e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23112b698072ed69131df94427df2d2b') in 0.025211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_oval_48_Demo.png
+  artifactKey: Guid(7494cf6ff5eb54031bc7147d24cb7954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_oval_48_Demo.png using Guid(7494cf6ff5eb54031bc7147d24cb7954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf01088be39e5a56f997d64ec6777fac') in 0.009669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe01_White1.png
+  artifactKey: Guid(b994304bb5b1a4fe4873e421adb11240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_itemframe01_White1.png using Guid(b994304bb5b1a4fe4873e421adb11240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9464337e141b9c10d2ec3c93f2eb88e3') in 0.012444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_small2.png
+  artifactKey: Guid(af7142ab033124e50a743ff7f050a4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_small2.png using Guid(af7142ab033124e50a743ff7f050a4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85ca8ff0c59637ecbd34ddfdea20434') in 0.018413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_small1.png
+  artifactKey: Guid(b264386ec04e54d6e9c61eb484e0c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_edgeframe_small1.png using Guid(b264386ec04e54d6e9c61eb484e0c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625b6f03192bc4bbf8a610644064723f') in 0.013584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square03_White.png
+  artifactKey: Guid(49084f5d97e6347428504c9bbd216abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Frame/frame_basicframe_square03_White.png using Guid(49084f5d97e6347428504c9bbd216abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799777d571f4b7db8a53b95d4437de40') in 0.013432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.803403 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Circle02.png
+  artifactKey: Guid(b66b96c6acb4f456898d981f7bc06784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Circle02.png using Guid(b66b96c6acb4f456898d981f7bc06784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff65f519f2e78e9504e03554804e2271') in 0.027795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_MainButton_Purple.Png
+  artifactKey: Guid(36267bcf5b2d343cdadf8a4766598974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_MainButton_Purple.Png using Guid(36267bcf5b2d343cdadf8a4766598974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf88ab2328f0db7dda94789139c6a0c0') in 0.039396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_MainButton_red.png
+  artifactKey: Guid(4f27cdb744c7b4f4aba46139d40a63f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_MainButton_red.png using Guid(4f27cdb744c7b4f4aba46139d40a63f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1470ed7a54179bac0f753196844ef7') in 0.028539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square02_f_Icon.png
+  artifactKey: Guid(59bce716a9cd24f2ca33eccf1ee174ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square02_f_Icon.png using Guid(59bce716a9cd24f2ca33eccf1ee174ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558b80a8055c2201e51f5b2140037c2e') in 0.015437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square03_White.png
+  artifactKey: Guid(40bfe6d90e9ed4cf3bc9ddc5bfc66a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square03_White.png using Guid(40bfe6d90e9ed4cf3bc9ddc5bfc66a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad1b1653b86bd5c92fe4ef267a92789') in 0.016748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.381315 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Circle02.png
+  artifactKey: Guid(b66b96c6acb4f456898d981f7bc06784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Circle02.png using Guid(b66b96c6acb4f456898d981f7bc06784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467bba6c657386c6992c7a1436dd579d') in 0.031676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square02_f.png
+  artifactKey: Guid(0c036096e6c314865a988630e61ba161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square02_f.png using Guid(0c036096e6c314865a988630e61ba161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be067fc6c59ddb0c406b2f3b8d2de0a') in 0.113444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square02_f_Icon.png
+  artifactKey: Guid(59bce716a9cd24f2ca33eccf1ee174ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_Square02_f_Icon.png using Guid(59bce716a9cd24f2ca33eccf1ee174ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9c162e932937ac5ab3673a162c09de') in 0.022426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_MainButton_Green.Png
+  artifactKey: Guid(cbb338b33765f40d2b04b54d803786bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Button/Btn_MainButton_Green.Png using Guid(cbb338b33765f40d2b04b54d803786bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbcfeb0fb8990b088b23fc6fc94910d') in 0.049117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.500094 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Bomb.Png
+  artifactKey: Guid(271ea8e9b26a94b2d8a6773b72812c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Bomb.Png using Guid(271ea8e9b26a94b2d8a6773b72812c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f7a16853210823ee13bcd1c2f025da') in 0.023020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Crown.Png
+  artifactKey: Guid(d479fbb4b257a410db2d438a01ab62bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Crown.Png using Guid(d479fbb4b257a410db2d438a01ab62bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a494a761e2ec2aa97eb454db3eed1865') in 0.029463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Sword_A.Png
+  artifactKey: Guid(0bb9dda66f02346938e16c8fe9d6b054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Sword_A.Png using Guid(0bb9dda66f02346938e16c8fe9d6b054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bfb7e20c579067885912c8b29d4109') in 0.030678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Potion_Red.Png
+  artifactKey: Guid(2ee84863a109245b69e2fd89e8a2f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Potion_Red.Png using Guid(2ee84863a109245b69e2fd89e8a2f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c34d6f12d8beb7080958c960ce7b460') in 0.042622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Setting.Png
+  artifactKey: Guid(84776b8d1949f406d92d5e4e354a650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Setting.Png using Guid(84776b8d1949f406d92d5e4e354a650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c03eb43868967cb8a6747de777028f') in 0.041620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Gold.Png
+  artifactKey: Guid(e8ffe2ae5c7a247e28c8da3424869a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Gold.Png using Guid(e8ffe2ae5c7a247e28c8da3424869a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b44949bf93ea0c52abf17f5b5e1c2c6') in 0.026093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Shop.Png
+  artifactKey: Guid(5341ddc86f90a463589ba5118780f2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Shop.Png using Guid(5341ddc86f90a463589ba5118780f2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f01992178649b68de7cf9f6f09d4b19') in 0.059762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Gift_Blue.Png
+  artifactKey: Guid(12823fdd5b5df45309f79e631a4aceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Gift_Blue.Png using Guid(12823fdd5b5df45309f79e631a4aceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f198c5d98b3f0f5d1f972b0052c9d0d9') in 0.045712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Horseshoes.Png
+  artifactKey: Guid(e6c0a2dee2ae944ee88451553c51c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Horseshoes.Png using Guid(e6c0a2dee2ae944ee88451553c51c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee805514b2d9c8cc1b302a932434980') in 0.036502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Trophy.Png
+  artifactKey: Guid(085d81daa0e0743c3b660219d6d2314c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Trophy.Png using Guid(085d81daa0e0743c3b660219d6d2314c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893e6dcfffd149ea4b8ce40fee9a865b') in 0.015549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Treasure.Png
+  artifactKey: Guid(503132a8a8e964a4f8619530b41b5384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Treasure.Png using Guid(503132a8a8e964a4f8619530b41b5384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac746d6043a02d5541658ee1750b9e5c') in 0.016097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Shield_B.Png
+  artifactKey: Guid(bcd50bb6462b24bc4a62f2318f88e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Shield_B.Png using Guid(bcd50bb6462b24bc4a62f2318f88e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae50c432ee16ea746158a232d81f775') in 0.016186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Pickax.Png
+  artifactKey: Guid(d2b771480eece46cca4f48a40e491c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Pickax.Png using Guid(d2b771480eece46cca4f48a40e491c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662552582eea4559d04e7508e014ed89') in 0.016086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.509549 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Bomb.Png
+  artifactKey: Guid(271ea8e9b26a94b2d8a6773b72812c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Bomb.Png using Guid(271ea8e9b26a94b2d8a6773b72812c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1737f40641e7565699bb921b05241edd') in 0.028368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Sword_B.Png
+  artifactKey: Guid(d0e9695c0153948809694226675d9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Sword_B.Png using Guid(d0e9695c0153948809694226675d9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5e8a14aac40b3eeb7b22dc5dba76e0') in 0.038011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Potion_Red.Png
+  artifactKey: Guid(2ee84863a109245b69e2fd89e8a2f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Potion_Red.Png using Guid(2ee84863a109245b69e2fd89e8a2f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9290ee60e1247ad9928b1d041d275901') in 0.026364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Shield_D.Png
+  artifactKey: Guid(989518b8746a84da8a894e177a896b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Shield_D.Png using Guid(989518b8746a84da8a894e177a896b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f252bee582c807a0214171ff57c524') in 0.018302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Soulgem.Png
+  artifactKey: Guid(60315924056b34e41a3b20ce86bdeb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Soulgem.Png using Guid(60315924056b34e41a3b20ce86bdeb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c438d4b44f072968a834b7de40d596') in 0.053222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Mission.Png
+  artifactKey: Guid(105dbec4cd6b2402f9fd0e720009c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Mission.Png using Guid(105dbec4cd6b2402f9fd0e720009c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8539e3a19e7bfe65a236ef915df02870') in 0.015985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Horseshoes.Png
+  artifactKey: Guid(e6c0a2dee2ae944ee88451553c51c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Horseshoes.Png using Guid(e6c0a2dee2ae944ee88451553c51c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963faf8d63bb510442c1ae9439930311') in 0.027074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Sandglass.Png
+  artifactKey: Guid(92e7fd5e4eb79486fbcff490b15f7238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Sandglass.Png using Guid(92e7fd5e4eb79486fbcff490b15f7238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd350ab8b3d8abe9697c9df226fcb4967') in 0.015189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Medal_Silver.Png
+  artifactKey: Guid(17109f59e55f941a9ba17e827e9f208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Medal_Silver.Png using Guid(17109f59e55f941a9ba17e827e9f208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b55429133ea8f9db67a74e6e27f03d') in 0.015115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Medal_Bronze.Png
+  artifactKey: Guid(6ebb36d7c522042c68c3739b3b3729c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Medal_Bronze.Png using Guid(6ebb36d7c522042c68c3739b3b3729c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889bd324ae4661caba48046229634b37') in 0.016446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Laurel.Png
+  artifactKey: Guid(f5a6003757a4945e5a989cc9a677492f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_ItemIcons_(original)/Icon_ItemIcon_Laurel.Png using Guid(f5a6003757a4945e5a989cc9a677492f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ff34716fcc13e02d71287dc307ef36') in 0.016095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.502404 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_FolderOpen.png
+  artifactKey: Guid(df69b231906d743fbb55deba2e177aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_FolderOpen.png using Guid(df69b231906d743fbb55deba2e177aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876cdd1ff32e4958e2e5f5b6c0f0992b') in 0.062764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Hand.png
+  artifactKey: Guid(582409d87bd2f4d2586971144572f43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Hand.png using Guid(582409d87bd2f4d2586971144572f43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a830034ea144fed464c2686c904421d0') in 0.048209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Left.png
+  artifactKey: Guid(b23b1bc4a445d4d12babf99befc440a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Left.png using Guid(b23b1bc4a445d4d12babf99befc440a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7891b1b9a1e11f91955e07fc158704') in 0.015322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Key.png
+  artifactKey: Guid(3e1c7e0d824694a10b4d9a44e77592af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Key.png using Guid(3e1c7e0d824694a10b4d9a44e77592af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa0d4a07093d85d47f815d8c038fd21') in 0.015023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Helmet.png
+  artifactKey: Guid(6350455e155b4424ca1398fcccc2b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Helmet.png using Guid(6350455e155b4424ca1398fcccc2b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509c78af81a0e4656776f9f677d375cd') in 0.014842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Home.png
+  artifactKey: Guid(df16bea67e1164d1a984f63b922e0ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Home.png using Guid(df16bea67e1164d1a984f63b922e0ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc83f3c6360b35a818c801c2b9ec921') in 0.015052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.128697 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Lock.png
+  artifactKey: Guid(e9acbfc78e59847b4b400e1e7ef7b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Lock.png using Guid(e9acbfc78e59847b4b400e1e7ef7b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a780b8f2fb599eb3b57608f76db31') in 0.014631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_MarkCaution2.png
+  artifactKey: Guid(9a5ea273c378546839d4eda3bb5a6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_MarkCaution2.png using Guid(9a5ea273c378546839d4eda3bb5a6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618d35e7f2de18928aea440bbc16034a') in 0.014957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_MarkCaution1.png
+  artifactKey: Guid(698ef43f4470f4cd3a168156f1b091ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_MarkCaution1.png using Guid(698ef43f4470f4cd3a168156f1b091ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257e1cce5e993dae29f93347607f2d6a') in 0.014582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_MailRead.png
+  artifactKey: Guid(9bce1253e076649698e00d30c02c092a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_MailRead.png using Guid(9bce1253e076649698e00d30c02c092a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf186e7ddf40b8c49e639931c5e66454') in 0.012779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.600631 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Thunder.png
+  artifactKey: Guid(aa08b74712ef341d39bda6221b5073df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Thunder.png using Guid(aa08b74712ef341d39bda6221b5073df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4797367bf8849701b95bafe741562177') in 0.080086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Unlock.png
+  artifactKey: Guid(869f8c7e95bbe4ea4b47c28684c397e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Unlock.png using Guid(869f8c7e95bbe4ea4b47c28684c397e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd518433af5c4438010caadd850e3de') in 0.025690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Treasure.png
+  artifactKey: Guid(17e7d25043db449c1827837a59637e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Treasure.png using Guid(17e7d25043db449c1827837a59637e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d14396eec54b613b9b563be86231d1c') in 0.016057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Youtube.png
+  artifactKey: Guid(1a424e649760e4744bf0adab4a0e56cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Youtube.png using Guid(1a424e649760e4744bf0adab4a0e56cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2043ddf105e48306dba11c2426404d') in 0.061860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Warning.png
+  artifactKey: Guid(bedd8d8c02f1443458c89afb25f1d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Warning.png using Guid(bedd8d8c02f1443458c89afb25f1d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629092e53e383a2f3aba19badd6aa213') in 0.059305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.647363 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Arrow.png
+  artifactKey: Guid(4f1846f5e9ef246f59a339bc877947f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Arrow.png using Guid(4f1846f5e9ef246f59a339bc877947f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42559bcd5e880d2e6d6267d1228e1f9') in 0.022724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlPlay.png
+  artifactKey: Guid(65bf1b1d7554d417a8a9617ae44227a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlPlay.png using Guid(65bf1b1d7554d417a8a9617ae44227a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10668a710efa29d6001f573824eb8f6') in 0.008232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Crop.png
+  artifactKey: Guid(0b85aec16263640e89c551d91731aca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Crop.png using Guid(0b85aec16263640e89c551d91731aca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba7ecc0cffc0bffad442311041df957') in 0.012946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coffee.png
+  artifactKey: Guid(b80dbaf3210ca4956a60a167aa5311c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coffee.png using Guid(b80dbaf3210ca4956a60a167aa5311c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd7b6f0073f4f1b48a632bc8f74f993') in 0.015575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Down.png
+  artifactKey: Guid(2a41e4dbe6ccb4f328a7498a60df2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Down.png using Guid(2a41e4dbe6ccb4f328a7498a60df2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959bedd7c65b05d6a65b4596837981ee') in 0.027880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Crown.png
+  artifactKey: Guid(b7d27a144c97042f3b95785601eede33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Crown.png using Guid(b7d27a144c97042f3b95785601eede33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e591e38e0e286e30230047a4209b8d') in 0.010881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Dynamite.png
+  artifactKey: Guid(89ea7da7be41a4ee2b0f72e26ff9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Dynamite.png using Guid(89ea7da7be41a4ee2b0f72e26ff9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f603abe83f45fa18a6c4e485b9beb25') in 0.021580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Contact.png
+  artifactKey: Guid(f4817a4eda948414d888f5ad1605a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Contact.png using Guid(f4817a4eda948414d888f5ad1605a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfba55e530e212bb2a5c71d1512ea3a') in 0.020561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bookmark.png
+  artifactKey: Guid(2c879739aa99043c8bd156c62bb0b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bookmark.png using Guid(2c879739aa99043c8bd156c62bb0b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b122f9cc309076f76237096b9a8714') in 0.014635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlStop.png
+  artifactKey: Guid(3081f484d263145dbab925ed69a2e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ControlStop.png using Guid(3081f484d263145dbab925ed69a2e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0765ad00964bd3436e04aed72734c8') in 0.017506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Download.png
+  artifactKey: Guid(b30fcba4c1687428d9335b4475a97224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Download.png using Guid(b30fcba4c1687428d9335b4475a97224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebf7b953695e4395470eb017a576836') in 0.007717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_CallReject.png
+  artifactKey: Guid(6b5b7763fcdfb450f8aec1ca1e3080bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_CallReject.png using Guid(6b5b7763fcdfb450f8aec1ca1e3080bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d2675b3fe8cce4321e58917e158999') in 0.009985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Expand.png
+  artifactKey: Guid(56ff5950f8c044352ae5d1671e559091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Expand.png using Guid(56ff5950f8c044352ae5d1671e559091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65983b3b477816f1b5f522881f6134fa') in 0.007633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Confirm.png
+  artifactKey: Guid(ba6bebfc975414e879205e31cd2d6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Confirm.png using Guid(ba6bebfc975414e879205e31cd2d6377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce1786d22a0cac0db14a4da513ec9a') in 0.007595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bulb.png
+  artifactKey: Guid(a22fa907354e74be68233cb9f2024234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bulb.png using Guid(a22fa907354e74be68233cb9f2024234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afd91e80ffcbcac956194741dc19966') in 0.015071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Fix.png
+  artifactKey: Guid(7642c9244a1a34e6380e07df5c53853c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Fix.png using Guid(7642c9244a1a34e6380e07df5c53853c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b2722e73c85d1ac5b0cd16f46ac761') in 0.016538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coupon.png
+  artifactKey: Guid(899a4634a0680445a8c79549eef05c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Coupon.png using Guid(899a4634a0680445a8c79549eef05c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c4399c0008b811cebe5bf0cae5a9d6') in 0.008679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ArrowPrev.png
+  artifactKey: Guid(039c994b141f9435195d03b19b637838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_ArrowPrev.png using Guid(039c994b141f9435195d03b19b637838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4974112d85587f0d6eb17ffe940abdd2') in 0.009357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bottom.png
+  artifactKey: Guid(d8dac49f2f89846fd84ba5105f788c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Bottom.png using Guid(d8dac49f2f89846fd84ba5105f788c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14ea4887713521b771318d83d35b343') in 0.006945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Eat.png
+  artifactKey: Guid(3767663cdbfbd4291934104e4106f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Icon_PictoIcons_(orginal)/Icon_PictoIcon_Eat.png using Guid(3767663cdbfbd4291934104e4106f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a351a995f1b3c839a526ffb6588b246c') in 0.015896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.818162 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider01_fill_White.png
+  artifactKey: Guid(9eac68edcfb1b4983bc0819a8efd5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider01_fill_White.png using Guid(9eac68edcfb1b4983bc0819a8efd5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dced74527f82693c0eb4fc2079ab893e') in 0.015663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_fill1_White.png
+  artifactKey: Guid(30f4e55c581d44331b87fb3621e09c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_fill1_White.png using Guid(30f4e55c581d44331b87fb3621e09c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209515c9b9f634b24e462559f5801dbb') in 0.019206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_inner_frame1.png
+  artifactKey: Guid(cf0904926e1c7441684bb559616f06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_inner_frame1.png using Guid(cf0904926e1c7441684bb559616f06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796f298ebd1998978c11ad40172012f6') in 0.024027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_White3.png
+  artifactKey: Guid(c79398228b47441c98379f0fb814dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_White3.png using Guid(c79398228b47441c98379f0fb814dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62967ccc0bb0f5f86b34dfdb9ec4ba92') in 0.012414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_frame_White.png
+  artifactKey: Guid(bc8187dbcdd6841edadedaa7cd2a0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_frame_White.png using Guid(bc8187dbcdd6841edadedaa7cd2a0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872518c8f45d51c30d28aa2d91d8be50') in 0.013368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_blue.png
+  artifactKey: Guid(882093b90e2d84e8680cd7027026b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_blue.png using Guid(882093b90e2d84e8680cd7027026b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87878ff4c9d24f57dafbdc2ae2778b39') in 0.012701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_fill_green.png
+  artifactKey: Guid(65df5e01093ef4a14b6c8076a8ae51d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_fill_green.png using Guid(65df5e01093ef4a14b6c8076a8ae51d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be888295f8381851822f655bde4b4333') in 0.012965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_yellow.png
+  artifactKey: Guid(589eb524b434341c1ba130764aa8068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_yellow.png using Guid(589eb524b434341c1ba130764aa8068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f824bfcc02edbf1ad6aa9a12e9cda571') in 0.014185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_picture_frame3_Demo.png
+  artifactKey: Guid(30b13ee81b9c3456680664e537492723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_picture_frame3_Demo.png using Guid(30b13ee81b9c3456680664e537492723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429dc42db92fe6ec40ca0c2b61a54fc0') in 0.014690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_frame_White2.png
+  artifactKey: Guid(2f120b54bc56741a7901a1f644d43b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_frame_White2.png using Guid(2f120b54bc56741a7901a1f644d43b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a9c0de2ae44c5442dc81c98a9376d0') in 0.014188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_handle_White1.png
+  artifactKey: Guid(c7b690baef73e46ae95ccf2976421255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_handle_White1.png using Guid(c7b690baef73e46ae95ccf2976421255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f33c1f1dcf716a383f7a64ac1235e1d') in 0.015258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_red.png
+  artifactKey: Guid(a40981489990940f7942012315b93f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_red.png using Guid(a40981489990940f7942012315b93f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b170772dca721d54107cad6534b61f') in 0.015456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_White1.png
+  artifactKey: Guid(c6530020d67ff4c729c6973cd987b504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_White1.png using Guid(c6530020d67ff4c729c6973cd987b504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8813790669a22c2ac9edb70ade5a53ba') in 0.014687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_fill_White.png
+  artifactKey: Guid(419e191c9502e46adaa183950689aabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_fill_White.png using Guid(419e191c9502e46adaa183950689aabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfda5bcbec412a30f17f391f9495a76') in 0.013390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.200202 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider01_fill_White.png
+  artifactKey: Guid(9eac68edcfb1b4983bc0819a8efd5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider01_fill_White.png using Guid(9eac68edcfb1b4983bc0819a8efd5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b63ab4e389b8e7a9a4ed951a0da3eb') in 0.010329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_purple.png
+  artifactKey: Guid(85b8c077af757423b85df92789d332dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_purple.png using Guid(85b8c077af757423b85df92789d332dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c113901fcf35c7a88d4835d5044b680') in 0.013239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_blue.png
+  artifactKey: Guid(bcd1d4fc09b0b4f56919cd3166dbf726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_blue.png using Guid(bcd1d4fc09b0b4f56919cd3166dbf726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6393774f0cbccfda3b27a59976189f08') in 0.020552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_handle_Demo_on.png
+  artifactKey: Guid(23420cc9a68ca49239ec7b10bf399e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_handle_Demo_on.png using Guid(23420cc9a68ca49239ec7b10bf399e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc3e4c363b34993b8b90ba15784adef') in 0.007338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_inner_frame.png
+  artifactKey: Guid(77d272bcb25c4462181762eacbe7aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_inner_frame.png using Guid(77d272bcb25c4462181762eacbe7aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e916942f4373c29ab7a556e8de2bf2d2') in 0.009155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_partten.png
+  artifactKey: Guid(57930a5d2df5b400ea209cfd5971a50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider03_partten.png using Guid(57930a5d2df5b400ea209cfd5971a50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edb2a638b685b31c5201b4cde7d9fea') in 0.008355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_front_frame.png
+  artifactKey: Guid(fb1ad380f329d46e083fd1d0802e11eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_front_frame.png using Guid(fb1ad380f329d46e083fd1d0802e11eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504e3ad56d10f5a4d5657b26a2c8f05d') in 0.014211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_yellow.png
+  artifactKey: Guid(589eb524b434341c1ba130764aa8068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_fill_yellow.png using Guid(589eb524b434341c1ba130764aa8068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff5130c861712b3cbc90127b17bb59b') in 0.008519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_picture_frame3_Demo.png
+  artifactKey: Guid(30b13ee81b9c3456680664e537492723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_picture_frame3_Demo.png using Guid(30b13ee81b9c3456680664e537492723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191ff38f4a07f65c932b52fd1185acfd') in 0.007698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_picture_frame3_White2.png
+  artifactKey: Guid(f5da007633fd34cd68baf5bd93fa272b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_picture_frame3_White2.png using Guid(f5da007633fd34cd68baf5bd93fa272b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6eec24a88fa1f06ebec85fc8bf380d') in 0.009452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_fill2_White.png
+  artifactKey: Guid(867fd3dd4c61d45fb8e5c3637bdce345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider05_user_info_fill2_White.png using Guid(867fd3dd4c61d45fb8e5c3637bdce345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2197849cf813189acd83d5b12d1a6d4') in 0.007204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_fill_White.png
+  artifactKey: Guid(69286042345c44c95b00119f1a95a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider02_fill_White.png using Guid(69286042345c44c95b00119f1a95a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4201cc341775dfd8c2b3bbcfefa959') in 0.007944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_red.png
+  artifactKey: Guid(a40981489990940f7942012315b93f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_red.png using Guid(a40981489990940f7942012315b93f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb80324f67734249f318ee11e93133c') in 0.014107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_White1.png
+  artifactKey: Guid(c6530020d67ff4c729c6973cd987b504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Components/Slider/slider04_icontype_iconframe_White1.png using Guid(c6530020d67ff4c729c6973cd987b504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591c6615b642f297df0a6e6cef2d954d') in 0.012937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.053985 seconds.
+  path: Assets/CastleBuilders/Sprites/GUI/Toggle_Radio_Btn_On.Png
+  artifactKey: Guid(c58f7917dc04a46caa1de49c44e3c4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/GUI/Toggle_Radio_Btn_On.Png using Guid(c58f7917dc04a46caa1de49c44e3c4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faf05fb6725d533d0b7d45dc29f26b1') in 0.018139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.153732 seconds.
+  path: Assets/CastleBuilders/Sprites/Tutorial/ImageTutorial_3.png
+  artifactKey: Guid(2a35d12cfb949f441ba1a8f64c52e715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Tutorial/ImageTutorial_3.png using Guid(2a35d12cfb949f441ba1a8f64c52e715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7f02d87a953cc587c1bccc25728d0c') in 0.039291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.321189 seconds.
+  path: Assets/CastleBuilders/Sprites/Tutorial/ImageTutorial_2.png
+  artifactKey: Guid(16b9f6ab2a52eec4e8d8d8693677314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Tutorial/ImageTutorial_2.png using Guid(16b9f6ab2a52eec4e8d8d8693677314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026a61f0bba27b4ba792a59b53985419') in 0.060943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.376467 seconds.
+  path: Assets/CastleBuilders/Sprites/Castles/Lvl_3.png
+  artifactKey: Guid(6a3e02411c9b63f46b764f3229b2e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Castles/Lvl_3.png using Guid(6a3e02411c9b63f46b764f3229b2e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d55489f545957702ed4aefdaefcb83') in 0.111052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/CastleBuilders/Sprites/Castles/Lvl_9.png
+  artifactKey: Guid(d06a76bed89cf184ba5dd19cf7cea046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Castles/Lvl_9.png using Guid(d06a76bed89cf184ba5dd19cf7cea046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be67e820ea5f919c356d804ce4413c3') in 0.118160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleBuilders/Sprites/Castles/Lvl_5.png
+  artifactKey: Guid(f82d0e4e9727f314caf7eb044d03c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Castles/Lvl_5.png using Guid(f82d0e4e9727f314caf7eb044d03c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9825dc581fa29b02f7b558ba561e4b17') in 0.018967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.604111 seconds.
+  path: Assets/CastleBuilders/Sprites/Castles/Lvl_2.png
+  artifactKey: Guid(81d6304cfab5780459022014e1bd58a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Castles/Lvl_2.png using Guid(81d6304cfab5780459022014e1bd58a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f73ca6b204e969e56c23a66fe782cc6') in 0.026031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleBuilders/Sprites/Castles/Lvl_8.png
+  artifactKey: Guid(16fdc5f56a81dc6429eef85e31ca1214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Castles/Lvl_8.png using Guid(16fdc5f56a81dc6429eef85e31ca1214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0054fae614a3f02393d985fb203566db') in 0.042939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleBuilders/Sprites/Castles/Lvl_14.png
+  artifactKey: Guid(0df83c24e71dbe446a1602fef1ddd294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Castles/Lvl_14.png using Guid(0df83c24e71dbe446a1602fef1ddd294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab9aa9853d3051fbdf0c387f10ee6a2') in 0.037318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleBuilders/Sprites/Castles/Lvl_11.png
+  artifactKey: Guid(a1684e81134c1e044856bc2fa531d691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleBuilders/Sprites/Castles/Lvl_11.png using Guid(a1684e81134c1e044856bc2fa531d691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949da4295682cd0efb42f7a2eee28473') in 0.036916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.791 seconds
+Domain Reload Profiling: 1339ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (67ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (792ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Script is not up to date after domain reload: guid(bd8fc9b04c7d921428f73583af9da336) path("Assets/SceneObfuscator/ExecuteInEditor/SceneObfuscator.cs") state(2)
+Script is not up to date after domain reload: guid(2a6b4dfaea236f941af1086e6c7f4ad3) path("Assets/SceneObfuscator/ExecuteInEditor/AssetsObfuscator.cs") state(2)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (41.0 KB). Loaded Objects now: 4815.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 2.859900 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.336400 ms  DeleteObjects: 0.065200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.422 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling: 1087ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (666ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (62.6 KB). Loaded Objects now: 4556.
-Memory consumption went from 156.5 MB to 156.4 MB.
-Total: 2.775900 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.293400 ms  DeleteObjects: 0.112800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.366 seconds
-Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.678 seconds
-Domain Reload Profiling: 1043ms
-	BeginReloadAssembly (131ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (184ms)
-		LoadAssemblies (226ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (678ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (312ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (37.9 KB). Loaded Objects now: 4561.
-Memory consumption went from 151.2 MB to 151.2 MB.
-Total: 2.976600 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.193100 ms MarkObjects: 2.466900 ms  DeleteObjects: 0.057700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.365 seconds
-Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.728 seconds
-Domain Reload Profiling: 1092ms
-	BeginReloadAssembly (126ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (728ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (36.9 KB). Loaded Objects now: 4565.
-Memory consumption went from 153.2 MB to 153.1 MB.
-Total: 3.188500 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.670000 ms  DeleteObjects: 0.059000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.455 seconds
-Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.724 seconds
-Domain Reload Profiling: 1179ms
-	BeginReloadAssembly (140ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (254ms)
-		LoadAssemblies (306ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (724ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (318ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadAttributes (204ms)
 			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (37.9 KB). Loaded Objects now: 4569.
-Memory consumption went from 155.1 MB to 155.1 MB.
-Total: 2.952500 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.104300 ms MarkObjects: 2.506600 ms  DeleteObjects: 0.057200 ms)
+Unloading 4071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (40.2 KB). Loaded Objects now: 4821.
+Memory consumption went from 153.6 MB to 153.6 MB.
+Total: 3.445600 ms (FindLiveObjects: 0.601000 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.658100 ms  DeleteObjects: 0.070000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -404,22 +1896,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 267922.359470 seconds.
-  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
-  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8b83793a1f579af83f9241e642acf1') in 0.044375 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
-  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0f3ae665e0f9a0c442719adef626a1') in 0.010330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
